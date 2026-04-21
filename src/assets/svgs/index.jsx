@@ -1880,7 +1880,7 @@ const dashboardIcon = () => {
   const location = useLocation()
   const isActive = location.pathname === "/agent-dashboard" ||
     location.pathname === "/dashboard" ||
-    location.pathname === "/admin-dashboard";
+    location.pathname === "/";
   return <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g clip-path="url(#clip0_8524_5740)">
       <path d="M16.7865 8.21338L12.8465 12.0867C12.4214 11.882 11.9377 11.8341 11.4808 11.9515C11.0239 12.0689 10.6232 12.344 10.3495 12.7283C10.0758 13.1125 9.94676 13.5811 9.98515 14.0513C10.0235 14.5215 10.2269 14.963 10.5593 15.2978C10.8917 15.6325 11.3318 15.839 11.8017 15.8807C12.2716 15.9224 12.7411 15.7967 13.1273 15.5257C13.5135 15.2548 13.7914 14.856 13.912 14.3999C14.0327 13.9439 13.9882 13.4598 13.7865 13.0334L17.7331 9.16005L16.7865 8.21338Z" fill={isActive ? "black" : "white"} />

@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 import * as Svgs from "@/assets/svgs";
 
 const navLinks = [
-  { to: "/admin-dashboard", icon: <Svgs.dashboardIcon />, label: "Bachicecha " },
-  { to: "/admin-dashboard", icon: <Svgs.PropertyIcon />, label: "Simulatore" },
-  { to: "/admin-dashboard", icon: <Svgs.setPrice />, label: "Simulazioni archiviate" },
-  { to: "/admin-dashboard", icon: <Svgs.HelpIcon />, label: "Quadernino degli errori" },
+  { to: "/", icon: <Svgs.dashboardIcon />, label: "Bachicecha " },
+  { to: "/", icon: <Svgs.PropertyIcon />, label: "Simulatore" },
+  { to: "/", icon: <Svgs.setPrice />, label: "Simulazioni archiviate" },
+  { to: "/", icon: <Svgs.HelpIcon />, label: "Quadernino degli errori" },
 ];
 
 const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
